@@ -9,12 +9,13 @@
 # get 3, 5, 6 and 9. The sum of these multiples is 23.
 # Find the sum of all the multiples of 3 or 5 below 1000.
 
-from sys import stdout
 print('Multiples of 3 and 5')
-for i in range(0,1000):
+a, b = 0, 0
+for i in range(0, 10):
     if i%3==0:
-        stdout.write('Fizz')
+        a+=i
+        print(i)
     if i%5==0:
-        stdout.write('Buzz')
-    if (i%5<>0 and i%3<>0):
-        print i,
+        b+=i
+        print(i)
+#    print(a+b)
