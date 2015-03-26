@@ -15,6 +15,7 @@ def divisible1(number, x):
             return False
         return True
 
+
 def divisible2(x):
     if x < 1:
         return False
