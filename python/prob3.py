@@ -1,4 +1,4 @@
-#!/usr/bin/env pathon
+#!/usr/bin/env python
 
 # Largest prime factor
 # Problem 3

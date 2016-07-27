@@ -9,20 +9,6 @@
 # By considering the terms in the Fibonacci sequence whose values do not exceed
 # four million, find the sum of the even-valued terms.
 
-# def fib():
-#     a = 0
-#     b = 1
-#     while True:
-#         yield a # 0 to start with
-#         a, b = b, a + b
-#
-# for index, fibonacci in enumerate(fib()):
-#     print('%s' % (index))
-#
-#     if index == 4000:
-#         break
-
-
 a, b = 0, 1
 x, y = 0, 0
 while True:

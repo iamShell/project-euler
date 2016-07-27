@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 
-# This is also my FizzBuzz, but changed to do 1000 instead of 100
-
 # Multiples of 3 and 5
 # Problem 1
 
@@ -11,11 +9,9 @@
 
 print('Multiples of 3 and 5')
 a, b = 0, 0
-for i in range(0, 10):
+for i in range(1, 1000):
     if i%3==0:
         a+=i
-        print(i)
-    if i%5==0:
+    elif i%5==0:
         b+=i
-        print(i)
-#    print(a+b)
+print(a+b)
